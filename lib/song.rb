@@ -12,7 +12,7 @@ class Song
     @name = song_name
     @artist = artist
     @genre = genre
-    @@count << @name
+    @@count << @name.to_i
     @@artists << artist
     @@genres << genre
   
